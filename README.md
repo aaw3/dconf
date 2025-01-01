@@ -15,6 +15,7 @@ sub_folders = list_subfolders('/com/github/wwmm/easyeffects/streamoutputs')
 ### dconf_wrapper.py
 Contains dconf functions for relative paths
 ```python
+from dconf_wrapper import dconf
 dconf_easyeffects = dconf('com/github/wwmm/easyeffects')
 subfolders = dconf_easyeffects.list_subfolders('streamoutputs')
 ```
